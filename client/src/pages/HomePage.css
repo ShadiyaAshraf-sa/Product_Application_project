@@ -1,6 +1,4 @@
-/* ========================
-   Header Styles
-======================== */
+
 .header {
   background-color: #003366;
   padding: 15px 20px;
@@ -24,9 +22,7 @@
 }
 
 
-/* ========================
-   Sidebar Styles
-======================== */
+
 .sidebar {
   width: 200px;
   padding: 20px;
@@ -48,10 +44,6 @@
   cursor: pointer;
 }
 
-
-/* ========================
-   Product Card Styles
-======================== */
 .product-card {
   border: 1px solid #eee;
   padding: 10px;
@@ -70,9 +62,6 @@
 }
 
 
-/* ========================
-   Product Grid Styles
-======================== */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -80,10 +69,6 @@
   margin-top: 20px;
 }
 
-
-/* ========================
-   Pagination Styles
-======================== */
 .footer-controls {
   display: flex;
   justify-content: space-between;
@@ -100,10 +85,6 @@
   align-items: center;
 }
 
-
-/* ========================
-   Main Layout
-======================== */
 .home-page {
   font-family: Arial, sans-serif;
 }
@@ -118,9 +99,26 @@
 }
 
 .toolbar {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  align-items: center;
 }
 
 .toolbar button {
+  margin-right: 10px;
+}
+.action-buttons {
+  margin-left: 100px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 5px 10px;
   margin-right: 10px;
 }
