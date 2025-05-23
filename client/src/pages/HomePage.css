@@ -1,0 +1,126 @@
+/* ========================
+   Header Styles
+======================== */
+.header {
+  background-color: #003366;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.search-actions input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+
+/* ========================
+   Sidebar Styles
+======================== */
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+/* ========================
+   Product Card Styles
+======================== */
+.product-card {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.stars {
+  color: gray;
+  margin-top: 5px;
+}
+
+
+/* ========================
+   Product Grid Styles
+======================== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+/* ========================
+   Pagination Styles
+======================== */
+.footer-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
+
+.rows-select {
+  display: flex;
+  align-items: center;
+}
+
+
+/* ========================
+   Main Layout
+======================== */
+.home-page {
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+}
+
+.content-area {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+.toolbar button {
+  margin-right: 10px;
+}
